@@ -26,24 +26,18 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📝 **Language:** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+🧑🏻‍💻 **Developer:** @ThaniOruvan25 
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+👥 **Support Group:** [Support Group](https://t.me/Tamil_Seriala)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
-
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Updates Channel:** [Tamil Serial](https://t.me/Tamil_Seriala)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @ThaniOruvan25 
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
