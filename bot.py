@@ -281,7 +281,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Onwer Of The Bot",
+                        InlineKeyboardButton("Owner Of The Bot",
                                              url="https://t.me/ThaniOruvan25")
                     ],
                     [
@@ -300,7 +300,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Onwer Of The Bot",
+                        InlineKeyboardButton("Owner Of The Bot",
                                              url="https://t.me/ThaniOruvan25")
                     ],
                     [
@@ -344,7 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
                 await cmd.message.edit(
-                    text="**You Still Didn't Join ☹️, Please Join My Updates Channel to use this Bot!**\n\n"
+                    text="**You Still Didn't Join ☹️, Please Join My Main Channel to use this Bot!**\n\n"
                          "Due to Overload, Only Channel Subscribers can use the Bot!",
                     reply_markup=InlineKeyboardMarkup(
                         [
