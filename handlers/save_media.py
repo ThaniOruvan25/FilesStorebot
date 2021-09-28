@@ -48,8 +48,8 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThaniOruvan25_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nVideo Link: \n\n{share_link} \n\n"
-            f"Click the link to get your files! \n\n@ThaniOruvan25",
+            f"**Batch Files Stored in my Database!**\n\n**Video Link: \n\n{share_link}** \n\n"
+            f"**Click the link to get your files!**",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚜️ Open The Link ⚜️", url=share_link)],
@@ -88,8 +88,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThaniOruvan_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nVideo Link: \n\n{share_link} \n\n"
-            f"Click the link to get your files! \n\n@ThaniOruvan25",
+            f"**Batch Files Stored in my Database!**\n\n**Video Link: \n\n{share_link}** \n\n"
+            f"**Click the link to get your files**!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚜️ Open The Link ⚜️", url=share_link)],
