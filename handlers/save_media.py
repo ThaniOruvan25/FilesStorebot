@@ -48,12 +48,12 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThaniOruvan25_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\n**Video Link: \n\n{share_link}** \n\n"
-            f"**Click the link to get your files!**",
+            f"Video Link: \n\n{share_link}** \n\n"
+            f"**#TO UPLOADS💛**",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚜️ Open The Link ⚜️", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/TamilSeriala"),
+                [[InlineKeyboardButton("Open The Link", url=share_link)],
+                 [InlineKeyboardButton("Channel", url="https://t.me/TamilSeriala"),
                   InlineKeyboardButton("Support Group", url="https://t.me/Tamil_Seriala")]]
             ),
             disable_web_page_preview=True
@@ -92,8 +92,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             f"**Click the link to get your files**!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚜️ Open The Link ⚜️", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/TamilSeriala"),
+                [[InlineKeyboardButton("Open The Link", url=share_link)],
+                 [InlineKeyboardButton("Channel", url="https://t.me/TamilSeriala"),
                   InlineKeyboardButton("Support Group", url="https://t.me/Tamil_Seriala")]]
             ),
             disable_web_page_preview=True
