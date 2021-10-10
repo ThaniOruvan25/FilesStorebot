@@ -48,9 +48,9 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThaniOruvan25_{str_to_b64(str(SaveMessage.message_id))}**"
         await editable.edit(
-            f"**Video Link:**\n"
+            f"**Here is Sharable Link of this file:**\n"
             f"https://t.me/{Config.BOT_USERNAME}?start=ThaniOruvan_{str_to_b64(str(file_id))}\n\n"
-            f"**#TO UPLOADS💛**",
+            f"__To Retrive the Stored File, just open the link!__",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open The Link", url=share_link)],
